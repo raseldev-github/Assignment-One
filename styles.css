@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    /* header section */
+.banner-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:bisque;
+    padding:80px 70px 0px 100px;
+   
+}
+
+.banner-title{
+   font-size: 40px;
+   font-weight:800;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color:#272727;
+   padding:15px;
+}
+.banner-desc{ 
+        font-style:italic;
+        padding:20px;
+        font-weight: 500;
+        line-height:40px;
+}
+.btn-primary{
+      width:120px;
+       font-size: 25px;
+       padding:14px 16px;
+       background-color: #923c3c;
+       text-align: center;
+       color:white;
+       font-weight: bold;
+       border-radius: 5px;
+       margin-left: 15px;
+}
